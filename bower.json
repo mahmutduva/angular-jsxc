@@ -1,0 +1,21 @@
+{
+  "name": "angular-jsxc",
+  "description": "jsxc angular directive",
+  "main": "index.js",
+  "authors": [
+    "Mahmut Duva"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mahmutduva/angular-jsxc",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jsxc": "^3.0.0",
+    "angular": "^1.5.6"
+  }
+}

@@ -1,5 +1,6 @@
 {
   "port": 3002,
-  "files" : ".src/**/*.{js, html, css}",
+  "injectChanges" : true,
+  "files" : ["./**/*.{js, html, css}","bower_components/jsxc/build/jsxc.min.js"],
   "server" : { "baseDir" : "./src" }
 }

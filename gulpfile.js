@@ -15,7 +15,7 @@ var paths = {
     '!bower_components/jsxc/build/lib/**',
     'bower_components/jsxc/build/*.js'
   ],
-  jsxc_directive_dir : 'src/jsxc-chat',
+  jsxc_directive_dir : 'src/',
   jsxc_build_dir: 'jsxc-build',
   jsxc_build_lib_dir:'jsxc-build/lib/emojione/'
 
@@ -33,7 +33,7 @@ gulp.task('copy_jsxc', function () {
 })
 
 gulp.task('min', function(){
-  return gulp.src('src/jsxc-chat/jsxc-chat.js')
+  return gulp.src('src/jsxc-chat.js')
       .pipe(minify({
           ext:{
               min:'.min.js'

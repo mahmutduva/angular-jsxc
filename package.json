@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "jsxc angular directive",
   "main": "index.js",
-  "scripts": {
-    "lite": "lite-server"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mahmutduva/angular-jsxc.git"
@@ -19,10 +16,9 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-copy": "0.0.2",
+    "gulp-live-server": "0.0.29",
     "gulp-minify": "0.0.11",
-    "gulp-open": "^2.0.0",
-    "jsxc": "^0.10.0",
-    "lite-server": "^2.2.0"
+    "gulp-open": "^2.0.0"
   },
   "dependencies": {
     "angular": "^1.5.6"

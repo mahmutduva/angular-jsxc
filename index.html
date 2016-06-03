@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Jsxc Chat</title>
+    <link href="jsxc-build/css/jsxc.css" rel="stylesheet">
+</head>
+<body ng-controller="appController as app">
+  <jsxc-chat
+        config="app.config"
+        data="app.data"
+        settings="false"
+        add-contact="false">
+  </jsxc-chat>
+
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+  <script src="bower_components/jq-fullscreen/release/jquery.fullscreen.min.js"></script>
+
+  <script src="jsxc-build/lib/jsxc.dep.min.js"></script>
+  <script src="jsxc-build/jsxc.js"></script>
+
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="src/jsxc-chat/jsxc-chat.js"></script>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>

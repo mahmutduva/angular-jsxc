@@ -1,15 +1,15 @@
 {
   "name": "angular-jsxc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "jsxc angular directive",
   "authors": [
     "Mahmut Duva"
   ],
   "main": [
-    "jsxc-build/lib/jsxc.dep.min.js",
+    "jsxc-build/lib/jsxc.dep.js",
     "jsxc-build/jsxc.js",
-    "rc/jsxc-chat.js",
-    "jsxc-build/css/jsxc.css"
+    "jsxc-build/css/jsxc.css",
+    "src/jsxc-chat.js"
   ],
   "license": "MIT",
   "homepage": "https://github.com/mahmutduva/angular-jsxc",

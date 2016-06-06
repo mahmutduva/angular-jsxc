@@ -8,7 +8,7 @@ var base = {
 }
 
 var paths = {
-  jsxc_dep : 'bower_components/jsxc/build/lib/jsxc.dep.min.js',
+  jsxc_dep : 'bower_components/jsxc/build/lib/jsxc.dep.js',
   jsxc_emojine: 'bower_components/jsxc/build/lib/emojione/**',
   jsxc_lib : [
     'bower_components/jsxc/build/**',

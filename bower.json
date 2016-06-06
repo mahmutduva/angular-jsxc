@@ -4,6 +4,12 @@
   "authors": [
     "Mahmut Duva"
   ],
+  "main": [
+    "jsxc-build/lib/jsxc.dep.min.js",
+    "jsxc-build/jsxc.js",
+    "rc/jsxc-chat.js",
+    "jsxc-build/css/jsxc.css"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/mahmutduva/angular-jsxc",
   "ignore": [

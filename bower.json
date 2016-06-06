@@ -1,5 +1,6 @@
 {
   "name": "angular-jsxc",
+  "version": "1.0.1",
   "description": "jsxc angular directive",
   "authors": [
     "Mahmut Duva"
